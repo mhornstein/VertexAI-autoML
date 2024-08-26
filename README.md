@@ -1,3 +1,16 @@
-This Colab notebook is designed to help me learn and experiment with Google's Vertex AI, specifically focusing on AutoML pipelines. This notebook is inspired by the [excellent tutorials from Mike Hendersonhere](https://www.youtube.com/playlist?list=PLgxF613RsGoUuEjJJxJW2JYyZ8g1qOUou). 
+# Exploring AutoML with Google Vertex AI
 
-The primary goal of this notebook is to explore and understand the tools and features provided by Google Vertex AI, rather than to conduct a deep dive into data analysis. To keep things straightforward and focused on the technology, I decided to use the well-known [Telco Customer Churn dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) from Kaggle. 
+This repository was created to explore Google Vertex AI's AutoML capabilities. After considering both Azure Machine Learning and Vertex AI, I chose Vertex AI, inspired by Mike Henderson's excellent tutorial. [Watch the tutorial here.](https://www.youtube.com/playlist?list=PLgxF613RsGoUuEjJJxJW2JYyZ8g1qOUou)
+
+In this project, I used a different dataset from the one in the tutorial to evaluate AutoML with both the Python Client and Pipelines. The repository includes two notebooks, each demonstrating one of these approaches.
+
+The primary focus is on understanding Vertex AI's tools and features, rather than in-depth data analysis of the dataset at hand.
+
+## Requirements
+
+- Enable Vertex AI and BigQuery APIs in your Google Cloud project.
+- Notebooks were executed in Vertex AI Workbench.
+
+## Dataset
+
+- **[Bank Customer Churn Dataset](https://www.kaggle.com/datasets/radheshyamkollipara/bank-customer-churn?resource=download)**
